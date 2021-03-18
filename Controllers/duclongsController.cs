@@ -31,6 +31,12 @@ namespace webcore.Controllers
             return View("ShowSearchForm");
         }
 
+        // POST: duclongs/ShowSearchResult
+        public async Task<IActionResult> ShowSearchResult(String SearchPhrase )
+        {
+            return View("Index", await _context.duclong.Where(j => j.DuclongQuestion.Contains
+            (SearchPhrase)).ToListAsync());
+        }
         // GET: duclongs/Details/5
         public async Task<IActionResult> Details(int? id)
         {
