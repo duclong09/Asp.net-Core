@@ -167,3 +167,4 @@ D:\CoreApp\webcore\obj\Debug\netcoreapp3.1\Razor\Views\duclongs\Delete.cshtml.g.
 D:\CoreApp\webcore\obj\Debug\netcoreapp3.1\Razor\Views\duclongs\Details.cshtml.g.cs
 D:\CoreApp\webcore\obj\Debug\netcoreapp3.1\Razor\Views\duclongs\Edit.cshtml.g.cs
 D:\CoreApp\webcore\obj\Debug\netcoreapp3.1\Razor\Views\duclongs\Index.cshtml.g.cs
+D:\CoreApp\webcore\obj\Debug\netcoreapp3.1\Razor\Views\duclongs\ShowSearchForm.cshtml.g.cs

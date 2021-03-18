@@ -25,6 +25,12 @@ namespace webcore.Controllers
             return View(await _context.duclong.ToListAsync());
         }
 
+        // GET: duclongs/ShowSearchForm
+        public async Task<IActionResult> ShowSearchForm()
+        {
+            return View("ShowSearchForm");
+        }
+
         // GET: duclongs/Details/5
         public async Task<IActionResult> Details(int? id)
         {
